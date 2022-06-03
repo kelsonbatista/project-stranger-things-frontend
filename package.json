@@ -20,7 +20,9 @@
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "cy": "cypress run",
-    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
+    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,16 +40,26 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "commitizen": "^4.2.4",
     "cypress": "5.1.0",
     "cypress-multi-reporters": "1.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "husky": "^8.0.1",
     "mocha": "7.0.1",
     "mochawesome": "4.1.0",
     "mochawesome-merge": "4.0.0",
-    "mochawesome-report-generator": "4.1.0",
-    "eslint": "6.8.0",
-    "eslint-config-airbnb": "18.2.0",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-react": "7.21.5"
+    "mochawesome-report-generator": "4.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
