@@ -21,7 +21,7 @@ This is the frontend part of Stranger Things project. This project is focused in
 ---
 # Layout
 
-<img src="intro.gif" alt="Project Stranger Things" style="width:40%;"/>
+<img src="intro.gif" alt="Project Stranger Things" style="height: 100%; width:100%;"/>
 
 ---
 # Deployment / *Implantação*
