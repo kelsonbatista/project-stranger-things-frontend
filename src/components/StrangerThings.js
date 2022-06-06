@@ -120,9 +120,6 @@ class StrangerThings extends React.Component {
           <div style={ { background: 'red', color: 'white' } }>
             {DEVELOPMENT && 'Em desenvolvimento'}
           </div>
-          <div style={ { background: 'green', color: 'white' } }>
-            {strangerThingsConfig.url}
-          </div>
           <div className="change-reality">
             <button type="button" onClick={ this.changeRealityClick }>
               {' '}
