@@ -27,6 +27,8 @@ This is the frontend part of Stranger Things project. This project is focused in
 # Deployment / *Implantação*
 
 See it in action/ **Veja em ação**:
- - Upside database. *Banco com dados normais*            [https://kelsonbatista-up.herokuapp.com/](https://kelsonbatista-up.herokuapp.com/)
- - Upside down database. *Banco com dados invertidos*    [https://kelsonbatista-dw.herokuapp.com/](https://kelsonbatista-dw.herokuapp.com/)
+ - Backend: Upside database. *Banco com dados normais*            [https://kelsonbatista-up.herokuapp.com/](https://kelsonbatista-up.herokuapp.com/)
+ - Backend: Upside down database. *Banco com dados invertidos*    [https://kelsonbatista-dw.herokuapp.com/](https://kelsonbatista-dw.herokuapp.com/)
+ - Frontend: Dev Environment. *Ambiente de Desenvolvimento*       [https://kelsonbatista-up.herokuapp.com/](https://kelsonbatista-up.herokuapp.com/)
+ - Frontend: Production Environment. *Ambiente de Produção*       [https://kelsonbatista-dw.herokuapp.com/](https://kelsonbatista-dw.herokuapp.com/)
 
