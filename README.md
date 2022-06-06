@@ -1,8 +1,8 @@
 # About the project / *Sobre o projeto*
 
-This is the backend part of Stranger Things project. This project is focused in Heroku cloud deployment on development and production environment, with Docker on backend. It is composed of 2 different APIs, one presenting upside data and the other presenting inverted data.
+This is the frontend part of Stranger Things project. This project is focused in Heroku cloud deployment on development and production environment, with Docker on backend. It is composed of 2 different APIs, one presenting upside data and the other presenting inverted data.
 
-*Esse é a parte backend do projeto Stranger Things. Esse projeto é focado no deployment na nuvem Heroku nos ambientes de desenvolvimento e produção, utilizando o Docker no backend. É composto por 2 APIs distintas, sendo uma apresentando os dados de forma normal e outra apresentando de forma invertida.*
+*Esse é a parte frontend do projeto Stranger Things. Esse projeto é focado no deployment na nuvem Heroku nos ambientes de desenvolvimento e produção, utilizando o Docker no backend. É composto por 2 APIs distintas, sendo uma apresentando os dados de forma normal e outra apresentando de forma invertida.*
 
 ---
 # Skills / *Habilidades*
@@ -15,13 +15,13 @@ This is the backend part of Stranger Things project. This project is focused in 
 ---
 # Endpoints / *Endpoints*
 
- - Upside database                 https://kelsonbatista-up.herokuapp.com/
- - Upside down database            https://kelsonbatista-dw.herokuapp.com/
+ - Upside database. *Banco com dados normais*             https://kelsonbatista-up.herokuapp.com/
+ - Upside down database. *Banco com dados invertidos*     https://kelsonbatista-dw.herokuapp.com/
 
 ---
 # Layout
 
-<img src="intro.gif" alt="Project Recipes App" style="width:40%;"/>
+<img src="intro.gif" alt="Project Stranger Things" style="width:40%;"/>
 
 ---
 # Deployment / *Implantação*
