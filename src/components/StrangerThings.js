@@ -3,6 +3,7 @@ import CharactersService from '../services/charactersAPI';
 import Table from './Table';
 
 const { REACT_APP_DEV_MODE } = process.env;
+const DEVELOPMENT = JSON.parse(REACT_APP_DEV_MODE);
 
 const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
@@ -117,7 +118,10 @@ class StrangerThings extends React.Component {
       >
         <div className="content strangerfy">
           <div style={ { background: 'red', color: 'white' } }>
-            {REACT_APP_DEV_MODE && 'Em desenvolvimento'}
+            {DEVELOPMENT && 'Em desenvolvimento'}
+          </div>
+          <div style={ { background: 'green', color: 'white' } }>
+            {strangerThingsConfig.url}
           </div>
           <div className="change-reality">
             <button type="button" onClick={ this.changeRealityClick }>
@@ -125,7 +129,6 @@ class StrangerThings extends React.Component {
               Mudar de Realidade
             </button>
           </div>
-
           <div>
             <input
               placeholder="Nome do Personagem"
